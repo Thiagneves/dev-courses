@@ -1,0 +1,3 @@
+O espaço de memoria é pouco para caber o nome pedro, isto pois, será inserido no final da variável o \n. Portanto deveria ser: 
+
+	char nome[6] = "Pedro";

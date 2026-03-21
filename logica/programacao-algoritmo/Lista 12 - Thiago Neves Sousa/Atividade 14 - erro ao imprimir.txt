@@ -1,0 +1,6 @@
+Maneira correta: 
+
+	char nome[10] = "Ana";
+	printf("%s", nome[1]);
+
+Não usamos o & ao printar uma variável.
