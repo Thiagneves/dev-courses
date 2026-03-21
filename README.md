@@ -4,4 +4,4 @@ Repository for organizing my software development studies, including exercises a
 - [Git](https://github.com/Thiagneves/dev-courses/tree/main/Git)
   - [Cursosgit](https://github.com/Thiagneves/dev-courses/tree/main/Git/Cursogit)
 - [Portugol](https://github.com/Thiagneves/dev-courses/tree/main/Portugol)  
-  -[Portugol-projects](https://github.com/Thiagneves/dev-courses/tree/main/Portugol/Portugol-projects) 
+  - [Portugol-projects](https://github.com/Thiagneves/dev-courses/tree/main/Portugol/Portugol-projects) 
