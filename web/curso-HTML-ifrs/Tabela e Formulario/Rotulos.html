@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotulos</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <section>
+        <form action="#">
+            <label for="homem">Homem</label>
+            <input type="radio" name="sexo" id="homem"  value="homem"><br>
+
+            <label for="mulher">Mulher</label>
+            <input type="radio" name="sexo" id="mulher"><br><br>
+
+            <button type="reset">limpar</button>
+        </form>
+        <form method="post" action="#">
+
+            <label for="endereco">Endereço:</label>
+
+            <textarea id="endereco" name="endereco">Av. Olindo de Miranda, 1000 - Almenara - MG
+            </textarea>
+        </form>
+    </section>
+
+    <section>
+        <h3>Fieldset</h3>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Dados pessoais></legend>
+                Nome:<input type="text"><br>
+                Email:<input type="text"><br>
+                Nascimento:<input type="text"><br>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h3>Chackbox</h3>
+        <form method="post" action="#">
+
+            Quais cursos você fará?<br><br>
+            <input type="checkbox" name="html" value="1">HTML<br>
+            <input type="checkbox" name="css" value="1">CSS<br>
+            <input type="checkbox" name="javascript" value="1">JavaScript<br>
+            <input type="checkbox" name="php" value="1" checked>PHP<br><br>
+
+            Qual Sistema Operacional você prefere?<br><br>
+            <input type="radio" name="SO" value="1">Android<br>
+            <input type="radio" name="SO" value="1">IOS
+        </form>
+    </section>
+
+    <section>
+        <h3>Select</h3>
+        <form method="post" action="#">
+
+            Qual curso você fará?
+            <select name="curso">
+                <option value="html">HTML</option>
+                <option value="csss">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="css">CSS</option>
+            </select>
+        </form>
+    </section>
+
+    <section>
+        <h3>Tipos de Campos:</h3>
+        <form method="post" action="#">
+            Email:<br>
+            <input type="email" name="email"><br><br>
+
+            Data:
+            <input type="date" name="data"><br><br>
+
+            Escala:
+            <input type="range" name="faixa"><br><br>
+
+            Cor:
+            <input type="color" name="cor"><br><br>
+        </form>
+    </section>
+
+    <section>
+        <h3>Qual curso você vai fazer?</h3>
+        <form method="post" action="#">
+            <input list="cursos" name="curso">
+            <datalist id="cursos">
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+                <option value="JavaScript"></option>
+            </datalist>
+        </form>
+    </section>
+
+    <section>
+        <h3>Formulario oculto</h3>
+        capta dados do usuario..
+        <form method="post" action="#">
+            <input type="hidden" name="id" value="123">
+        </form><br><br>
+
+        <h3>Arquivo</h3>
+        <form method="post" action="#" enctype="mutipart/form-data">
+            <input type="file" name="arquivo">
+        </form>
+    </section>
+<!--
+Parâmetros: <input type "file">
+-accept
+-alt
+-->
+</body>
+</html>
+<!--
+Parâmetros: <input type="checkbox / radio">
+-checked
+
+Parâmetros: <select>
+-autofocus
+-disabled
+-multiple
+-name
+-required
+-size
+
+Parâmetros: <option>
+-disabled
+-label
+-selected
+-value
+-->

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    
+    <section>
+        <form action="#" method="post">
+            
+            Nome: <input type="text" name="nome" placeholder="Informe o seu nome" required><br><br>
+
+            CPF: <input type="name" name="cpf" maxlength="14" placeholder="Ex 123.456.789-00"><br><br>
+
+            Email: <input type="text" name="email" placeholder="Informe o seu email"><br><br>
+
+            Senha: <input type="password" name="senha"><br><br>
+
+            Título: <input type="text" name="titulo"><br><br>
+
+            Descrição: <textarea name="descricao"></textarea><br><br>
+
+            <button type="reset">limpar</button>
+            <button type="submit">Enviar</button>
+
+        </form>
+        
+    </section>
+    <section>
+        <h3>Exemplo de Botão</h3>
+        <button type="button">Clique aqui</button>
+    </section>
+
+</body>
+</html>
+<!--
+Parâmetros: <form>
+-action
+-autocomplete
+-enctype
+-method
+-name (nome para o formulario)
+-novalidate (não é para validar)
+-target (metodo de envio de informações via navegador "NÃO É SEGURO")
+
+Parâmetros: <input>
+-autocomplete
+-autofocus
+-disabled (a pessoa não poderá digitar nada no campo)
+-max
+-maxlength
+-min
+-name
+-pattern
+-placeholder
+-readonly
+-required (informando que o campo é obrigatorio )
+-size
+-type
+-value
+
+Parâmetros: <textarea>
+-autofocus
+-cols
+-disabled
+-maxlength
+-name
+-placeholder
+-readonly
+-required
+-rows
+-wrap
+
+Parâmetros: <button>
+-autofocus
+-disabled
+-name
+-type: button, reset, submit
+-value
+
+Parâmetros: <button type="submit">
+-formaction
+-formmethod
+-formnovalidate
+-formtarget
+-->
