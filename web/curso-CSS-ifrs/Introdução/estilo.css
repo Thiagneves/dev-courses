@@ -1,0 +1,26 @@
+body{
+    color: blue;
+    font-family: verdana, tahoma, times;
+    font-size: 15px;
+}
+
+#id1 {
+    font-size: 24px;
+}
+
+.class1 {
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+
+.classe1 {
+    font-style: italic;
+}
+
+#id2 {
+    font-family: Arial;
+}

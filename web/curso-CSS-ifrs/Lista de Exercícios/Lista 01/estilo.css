@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+    font-size: 12pt;
+}
+
+.titulo1q2 {
+    text-decoration: underline;
+    font-family: verdana;
+    color: green;
+}
+
+.titulo2q1 {
+    font-style: italic;
+    font-family: Comic Sans MS;
+    color: purple;
+}
+
+p.texto2 {
+    font-family: arial;
+    color: black;
+}
+
+.l1q3 {
+    font-family: arial;
+    color: black;
+}
+
+#id1 {
+    font-family: verdana;
+    color: blue;
+}
+
+.classeA {
+    font-family: tahoma;
+    color: #333333;
+}

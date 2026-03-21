@@ -1,0 +1,19 @@
+a:link{
+    background-color: #b2ff99;
+    color: blue;
+}
+/* Comando para comentario */
+a:visited{
+    background-color: #ffff85;
+    color: red;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:active{
+    background-color: #ff704D;
+    color: gray;
+}
