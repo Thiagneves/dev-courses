@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de entrada</title>
+    <script src="input.js"></script>
+</head>
+<body>
+    <h1>Eventos de input</h1>
+    <form name="formTeste" onsubmit="return submeti()" onreset="resetei()">
+        <label for="name">Nome:</label> <input type="text" id="nome" name="nome" onblur="saidocampo()" onchange="mudei()" onfocus="entreinocampo()" onselect="selecionei()" onkeydown="teclabaixo()" onkeyup="teclacima()">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <h2>Log de ocorrências</h2>
+    <div id="log"></div>
+
+    <h3>Input</h3><br>
+    onBlur: Quando sai do campo (tipo sair do campo com o mouse)<br>
+    onChange: Quando muda o conteúdo do campo<br>
+    onFocus: Quando entra no campo<br>
+    onSelect: Quando um texto é selecionado<br>
+    onSubmit: quando o formulário é enviado<br>
+    onReset: Quando o botão reset é clicado<br>
+    onKeyDown: Quando pressionada a tecla (fica com a tecla pressionada. ex: setas)<br>
+    onKeyUp: Quando solta a tecla<br>
+</body>
+</html>
