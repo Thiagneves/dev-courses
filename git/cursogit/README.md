@@ -15,6 +15,3 @@ Este repositório contém anotações e exemplos práticos do curso básico de G
 
 Compreender os conceitos fundamentais do Git e aprender a controlar versões de forma simples e eficiente.
 
-## ⚠️ Observação
-
-Este repositório é apenas para fins de estudo e prática dos comandos básicos.
