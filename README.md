@@ -24,6 +24,7 @@ Este repositório organiza meus estudos em **desenvolvimento de software**, incl
 
 ### 🗄️ Banco de Dados
 - [SQL (Teo Me Why)](https://github.com/Thiagneves/dev-courses/tree/main/banco-de-dados/SQL-TeoMeWhy)
+- [Banco de Dados I (IFNMG)](https://github.com/Thiagneves/dev-courses/tree/main/banco-de-dados/Banco-de-Dados-I-IFNMG)
 
 ---
 
