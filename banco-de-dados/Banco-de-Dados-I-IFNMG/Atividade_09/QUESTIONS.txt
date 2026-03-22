@@ -1,0 +1,21 @@
+- Com o banco de dados implementado e populado, elabore consultas que respondam às perguntas abaixo, escolha 5 perguntas a serem respondidas:
+
+1.Liste o nome e o CPF de todos os clientes que possuem mais de uma conta cadastrada.
+
+2. Mostre o total de empréstimos realizados por tipo (Pessoal, Empresarial, Imobiliário, etc).
+
+3. Exiba o nome do cliente, o número da conta e o saldo das contas com saldo superior à média geral dos saldos.
+
+4. Apresente a média da pontuação de crédito (score) agrupada por fonte (Serasa, SPC, etc).
+
+5. Mostre todos os clientes que possuem pelo menos um empréstimo com status “Atrasado”.
+
+6. Liste o nome do funcionário e a quantidade total de empréstimos sob sua responsabilidade.
+
+7. Mostre o valor total já pago por cada empréstimo (somando os pagamentos).
+
+8. Exiba os nomes dos clientes e seus e-mails que não possuem nenhum empréstimo ativo.
+
+9. Liste o nome do cliente, o tipo de conta e a data de abertura das contas abertas antes de 2024.
+
+10. Mostre os cinco clientes com maior pontuação de crédito, ordenados de forma decrescente.
